@@ -13,7 +13,7 @@ import {
   DeviceIdentifiers,
   MdnsDeviceDiscoverer,
   Shellies,
-} from 'shellies-ng';
+} from 'homebridge-elyeu-shelly-node-gui';
 
 import { CustomCharacteristics, createCharacteristics } from './utils/characteristics';
 import { CustomServices, createServices } from './utils/services';
@@ -26,7 +26,7 @@ type AccessoryUuid = string;
 /**
  * The name of this plugin.
  */
-export const PLUGIN_NAME = 'homebridge-shelly-ng';
+export const PLUGIN_NAME = 'homebridge-elyeu-shelly-gui';
 
 /**
  * The name of this homebridge platform.
